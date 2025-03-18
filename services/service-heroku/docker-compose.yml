@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+
+  service-heroku:
+    build:
+      context: ./services/service-heroku
+    container_name: service-heroku
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mongodb
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017/annotations
+      - ENCRYPTION_KEY=your-encryption-key
+
+volumes:
+  mongo_data:

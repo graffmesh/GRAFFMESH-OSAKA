@@ -1,0 +1,18 @@
+/* styles/contentStyle.css */
+
+.graffmesh {
+  color: #333;
+  position: absolute;
+  background-color: #fffa75;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 200px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10000;
+}
+
+.graffmesh:hover {
+  background-color: #fff176;
+}

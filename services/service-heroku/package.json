@@ -1,0 +1,41 @@
+{
+  "name": "@graffmesh/service-heroku",
+  "version": "1.9.0",
+  "description": "Backend for the P2P Annotation project",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node server.ts",
+    "build": "tsc --allowUnreachableCode --noCheck --project ./tsconfig.json --outDir ./dist",
+    "dev": "ts-node src/server.ts",
+    "lint": "eslint src --ext .ts,.tsx --fix",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "typecheck": "tsc --pretty --noEmit -p ./tsconfig.json",
+    "test": "vitest",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "prepare": "husky install"
+  },
+  "type": "module",
+  "private": true,
+  "author": "Lireproof",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.297",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "@types/supertest": "^6.0.2",
+    "rimraf": "^6.0.1",
+    "supertest": "^7.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.2",
+    "zod": "^3.24.1"
+  }
+}

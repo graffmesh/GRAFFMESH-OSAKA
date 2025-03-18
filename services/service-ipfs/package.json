@@ -1,0 +1,8 @@
+{
+  "name": "@graffmesh/service-ipfs",
+  "version": "0.0.0",
+  "description": "Ipfs service for the P2P Annotation project",
+  "author": "Lireproof",
+  "private": true,
+  "packageManager": "yarn@4.6.0"
+}
