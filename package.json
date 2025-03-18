@@ -1,0 +1,58 @@
+{
+  "name": "graffmesh",
+  "version": "1.9.0",
+  "private": true,
+  "scripts": {
+    "appex": "yarn workspace @graffmesh/app-chrome-extension",
+    "data": "yarn workspace @graffmesh/service-heroku",
+    "schema": "yarn workspace @graffmesh/service-schema",
+    "shared": "yarn workspace @graffmesh/shared",
+    "cli": "yarn workspace @graffmesh/cli",
+    "dev": "turbo dev",
+    "dev:appex": "turbo dev --scope=@graffmesh/app-chrome-extension",
+    "dev:data": "turbo dev --scope=@graffmesh/service-heroku",
+    "build": "turbo build",
+    "build:appex": "turbo build --scope=@graffmesh/app-chrome-extension",
+    "build:data": "turbo build --scope=@graffmesh/service-heroku",
+    "build:schema": "turbo build --scope=@graffmesh/service-schema",
+    "lint": "turbo lint",
+    "format": "prettier --write .",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "test:appex": "turbo test --scope=@graffmesh/app-chrome-extension",
+    "test:data": "turbo test --scope=@graffmesh/service-heroku",
+    "clean": "turbo run clean"
+  },
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@graffmesh/app-chrome-extension": "workspace:*",
+    "@graffmesh/cli": "workspace:*",
+    "@graffmesh/service-heroku": "workspace:*",
+    "@graffmesh/service-schema": "workspace:*",
+    "@graffmesh/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "@typescript-eslint/typescript-estree": "^8.18.2",
+    "@typescript-eslint/utils": "^8.18.2",
+    "esbuild": "^0.24.2",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "tsc": "^2.0.4",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2"
+  },
+  "packageManager": "yarn@4.6.0"
+}

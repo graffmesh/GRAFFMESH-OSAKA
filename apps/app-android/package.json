@@ -1,0 +1,8 @@
+{
+  "name": "@graffmesh/app-android",
+  "version": "0.0.0",
+  "description": "P2P Annotation Android App",
+  "author": "Lireproof",
+  "private": true,
+  "packageManager": "yarn@4.6.0"
+}

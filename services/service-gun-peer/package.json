@@ -1,0 +1,8 @@
+{
+  "name": "@graffmesh/service-gun-peer",
+  "version": "0.0.0",
+  "description": "Gun-Peer service for the P2P Annotation project",
+  "author": "Lireproof",
+  "private": true,
+  "packageManager": "yarn@4.6.0"
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["apps/app-chrome-extension/src/components/*"],
+      "@utils/*": ["apps/app-chrome-extension/src/utils/*"],
+      "@service/*": ["services/service-heroku/src/*"]
+    }
+  },
+  "include": ["apps/**/*", "services/**/*", "packages/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "apps/app-chrome-extension/dist",
+    "services/service-heroku/dist"
+  ]
+}
