@@ -16,7 +16,7 @@
     "prepare": "yarn build && yarn type-check && yarn generate"
   },
   "dependencies": {
-    "@prisma/client": "^6.2.1",
+    "@prisma/client": "^6.5.0",
     "@sentry/browser": "^8.50.0",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
