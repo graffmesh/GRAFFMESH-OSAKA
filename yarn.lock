@@ -902,7 +902,7 @@ __metadata:
   resolution: "@graffmesh/app-chrome-extension@workspace:apps/app-chrome-extension"
   dependencies:
     "@storybook/react": "npm:^8.4.7"
-    "@types/chrome": "npm:^0.0.297"
+    "@types/chrome": "npm:^0.0.309"
     "@types/node": "npm:^22.10.7"
     "@types/react": "npm:^19.0.6"
     "@types/react-dom": "npm:^19.0.3"
@@ -962,7 +962,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@graffmesh/service-heroku@workspace:services/service-heroku"
   dependencies:
-    "@types/chrome": "npm:^0.0.297"
+    "@types/chrome": "npm:^0.0.309"
     "@types/cors": "npm:^2.8.17"
     "@types/express": "npm:^5.0.0"
     "@types/node": "npm:^22.10.7"
@@ -2306,13 +2306,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chrome@npm:^0.0.297":
-  version: 0.0.297
-  resolution: "@types/chrome@npm:0.0.297"
+"@types/chrome@npm:^0.0.309":
+  version: 0.0.309
+  resolution: "@types/chrome@npm:0.0.309"
   dependencies:
     "@types/filesystem": "npm:*"
     "@types/har-format": "npm:*"
-  checksum: 10c0/9f2ab575384388f1cd5a52de728208516fcbcf2742ce1012560441f236892c6d14119ae1300e82d66538b075b07611fccdeadbd6caa18a6625ce8a3256705783
+  checksum: 10c0/3d834abd153d7a46916f73aa41b0151ec14cf1ea9ece2de81a206d8d71a25975a06109e3b5b98cd943775614e4fb4dddbff88bc5096f78667889231638d3e7c8
   languageName: node
   linkType: hard
 
