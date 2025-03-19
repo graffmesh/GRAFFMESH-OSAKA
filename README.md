@@ -1,4 +1,4 @@
-# GrafMesh
+# GrafMesh/OSAKA
 
 GrafMesh is a revolutionary platform for creating, sharing, and managing annotations in a decentralized way. This project combines P2P technology, Web3, and modern web development tools to redefine digital collaboration.
 

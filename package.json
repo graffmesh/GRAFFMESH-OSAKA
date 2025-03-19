@@ -1,5 +1,5 @@
 {
-  "name": "graffmesh",
+  "name": "@graffmesh/osaka",
   "version": "1.9.0",
   "private": true,
   "scripts": {
@@ -9,19 +9,25 @@
     "shared": "yarn workspace @graffmesh/shared",
     "cli": "yarn workspace @graffmesh/cli",
     "dev": "turbo dev",
+    "dev:all": "turbo dev --parallel",
     "dev:appex": "turbo dev --scope=@graffmesh/app-chrome-extension",
     "dev:data": "turbo dev --scope=@graffmesh/service-heroku",
     "build": "turbo build",
+    "build:prod": "turbo build --no-cache --force",
     "build:appex": "turbo build --scope=@graffmesh/app-chrome-extension",
     "build:data": "turbo build --scope=@graffmesh/service-heroku",
     "build:schema": "turbo build --scope=@graffmesh/service-schema",
     "lint": "turbo lint",
+    "lint:fix": "turbo lint -- --fix",
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "typecheck": "turbo typecheck",
     "test": "turbo test",
+    "test:watch": "turbo test -- --watch",
     "test:appex": "turbo test --scope=@graffmesh/app-chrome-extension",
     "test:data": "turbo test --scope=@graffmesh/service-heroku",
-    "clean": "turbo run clean"
+    "clean": "turbo run clean",
+    "clean:cache": "turbo clean && rm -rf node_modules/.cache"
   },
   "workspaces": [
     "apps/*",
@@ -37,12 +43,12 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
-    "@types/node": "^22.10.2",
+    "@types/node": "^20.11.0",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2",
     "@typescript-eslint/typescript-estree": "^8.18.2",
     "@typescript-eslint/utils": "^8.18.2",
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.20.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.1",
@@ -50,9 +56,12 @@
     "globals": "^16.0.0",
     "prettier": "^3.4.2",
     "tsc": "^2.0.4",
-    "turbo": "^2.3.3",
-    "typescript": "^5.7.2",
+    "turbo": "^1.12.0",
+    "typescript": "^5.3.3",
     "typescript-eslint": "^8.18.2"
   },
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
