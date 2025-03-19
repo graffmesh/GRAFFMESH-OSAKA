@@ -1,6 +1,6 @@
 [submodule "apps"]
 	path = apps
 	url = https://github.com/graffmesh/apps.git
-[submodule "serices"]
-	path = serices
-	url = https://github.com/graffmesh/serices.git
+[submodule "services"]
+	path = services
+	url = https://github.com/graffmesh/services.git
