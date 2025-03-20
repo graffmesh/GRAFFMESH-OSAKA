@@ -14,13 +14,18 @@ GrafMesh is a revolutionary platform for creating, sharing, and managing annotat
 
 ---
 
-## SERVICES:
+## PROJECT:
 
-### [@TOYS/OSAKA](https://github.com/T-O-Y-S/OSAKA)
-Personal Data-Model Generate-AI, ChatBot with LLM. Vinal of OSAKA.
+### [@VVVVIAE/VYNAL-OF-OSAKA](https://github.com/vvvvise/VYNAL-OF-OSAKA)
+Urban DEMO REACTIVE ART PROJECT in OSAKA.
 
-### [@GraffMesh/OSAKA](https://github.com/graffmesh/OSAKA)
-Redefining Urban Expression in the Digital Age, Vinyl of OSAKA.
+  - ## SERVICES:
+
+    - ### [@TOYS/TOYS-OSAKA](https://github.com/T-O-Y-S/TINY-TOYS)
+      Personal Data-Model Generate-AI, ChatBot with LLM. Vinal of OSAKA.
+
+    - ### @GRAFFMESH/GRAFFMESH-OSAKA [THIS REPO]
+      Redefining Urban Expression in the Digital Age, Vinyl of OSAKA.
 
 ---
 
