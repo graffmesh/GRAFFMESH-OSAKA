@@ -8,6 +8,8 @@ GrafMesh is a revolutionary platform for creating, sharing, and managing annotat
 - **Annotations Everywhere**: Add annotations to any webpage and synchronize them across devices.
 - **Web3 Integration**: Leverage blockchain for secure and transparent annotation management.
 
+---
+
 ## PROJECTS:
 
 - [@VVVVISE/OSAKA](https://github.com/vvvvise/OSAKA)
@@ -48,15 +50,16 @@ GrafMesh is a revolutionary platform for creating, sharing, and managing annotat
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/graffmesh/osaka.git
-   cd graffmesh
+   git clone https://github.com/graffmesh/OSAKA.git
+   cd OSAKA
+
+   git submodule upate
    ```
 
 2. Install dependencies:
 
    ```bash
-   yarn install
-
+   bash scripts/setup.sh
    ```
 
 3. Start development servers:
