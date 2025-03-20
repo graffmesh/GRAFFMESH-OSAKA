@@ -4,6 +4,14 @@ GrafMesh is a revolutionary platform for creating, sharing, and managing annotat
 
 ---
 
+## PROJECTS:
+
+- [@VVVVISE/OSAKA](https://github.com/vvvvise/OSAKA)
+  - [@TOYS/OSAKA](https://github.com/T-O-Y-S/OSAKA)
+  - [@GRffMESH/OSAKA](https://github.com/graffmesh/OSAKA)
+
+---
+
 ## Features
 
 - **Decentralized Network**: Use IPFS and GUN.js for distributed data storage and retrieval.
