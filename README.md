@@ -16,7 +16,7 @@ GrafMesh is a revolutionary platform for creating, sharing, and managing annotat
 
 ## PROJECT:
 
-### [@VVVVIAE/VYNAL-OF-OSAKA](https://github.com/vvvvise/VYNAL-OF-OSAKA)
+### [@VVVVISE/VYNAL-OF-OSAKA](https://github.com/vvvvise/VYNAL-OF-OSAKA)
 Urban DEMO REACTIVE ART PROJECT in OSAKA.
 
   - ## SERVICES:
