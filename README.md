@@ -1,6 +1,10 @@
+<img width="120" src="https://github.com/user-attachments/assets/c846bb33-aec1-47b8-832b-2e6ec12ea86c" />
+
 # @GrafMesh/OSAKA
 
 GrafMesh is a revolutionary platform for creating, sharing, and managing annotations in a decentralized way. This project combines P2P technology, Web3, and modern web development tools to redefine digital collaboration.
+
+### <br />
 
 ## FEATURES:
 
