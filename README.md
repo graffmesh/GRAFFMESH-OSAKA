@@ -64,7 +64,7 @@ Urban DEMO REACTIVE ART PROJECT in OSAKA.
    git clone https://github.com/graffmesh/OSAKA.git
    cd OSAKA
 
-   git submodule upate
+   git submodule update
    ```
 
 2. Install dependencies:
